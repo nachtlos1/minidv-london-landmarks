@@ -1,6 +1,6 @@
 # Filming London Landmarks on MiniDV and Transferring to PC over FireWire
 
-I bought a **Sony DCR-TRV19E** MiniDV camcorder from the early 2000s, filmed landmarks across London on tape, then transferred the footage to my Windows 11 PC using **FireWire (IEEE 1394)**.
+I bought a **Sony DCR-TRV19E** MiniDV camcorder from the early 2000s, filmed landmarks across London on tape (**Battersea Power Station**, **London City Airport** and **Hyde Park**), then transferred the footage to my Windows 11 PC using **FireWire (IEEE 1394)**.
 
 Getting video off a 20-year-old tape camcorder and onto a modern PC turned out to be a proper hardware and software troubleshooting project: old interfaces, missing ports, driver choices and large video files.
 
@@ -12,9 +12,10 @@ Getting video off a 20-year-old tape camcorder and onto a modern PC turned out t
 2. [Why FireWire, not USB](#why-firewire-not-usb)
 3. [Connecting the camera](#connecting-the-camera)
 4. [Capturing the footage](#capturing-the-footage)
-5. [After capture: storing and sharing](#after-capture-storing-and-sharing)
-6. [Troubleshooting](#troubleshooting)
-7. [What I learned](#what-i-learned)
+5. [What I filmed](#what-i-filmed)
+6. [After capture: storing and sharing](#after-capture-storing-and-sharing)
+7. [Troubleshooting](#troubleshooting)
+8. [What I learned](#what-i-learned)
 
 ---
 
@@ -27,7 +28,8 @@ Getting video off a 20-year-old tape camcorder and onto a modern PC turned out t
 | Camera's digital output | **i.LINK**, Sony's name for FireWire / IEEE 1394 (4-pin port) |
 | Cable | FireWire cable: 4-pin at the camera end, to match the PC's FireWire port |
 | PC | Ryzen 7 7800X3D, RTX 5070, Windows 11 |
-| Footage | Landmarks around London |
+| Capture software | WinDV |
+| Footage | Battersea Power Station, London City Airport, Hyde Park |
 
 ---
 
@@ -56,14 +58,26 @@ Windows 11 includes its own 1394 driver, and there is also an older **"1394 OHCI
 
 ## Capturing the footage
 
-Free, lightweight capture tools such as **WinDV** or **Scenalyzer** talk directly to the camera:
+I used **WinDV**, a free, lightweight capture tool that talks directly to the camera over FireWire. (Scenalyzer is a common alternative.)
 
-1. Open the capture software. It should show the camera's video when the tape plays.
+1. Open WinDV. It should show the camera's video when the tape plays.
 2. Rewind the tape to the start.
 3. Start capture. The software plays the tape and records the DV stream to the PC.
 4. Captured files are saved as **DV AVI**, an exact copy of the tape.
 
 **File sizes are large.** DV runs at about **25 Mbit/s**, which is roughly **13 GB per hour** of footage, so capture to a drive with plenty of free space.
+
+---
+
+## What I filmed
+
+| Landmark | Area |
+|---|---|
+| **Battersea Power Station** | Battersea, on the south bank of the Thames |
+| **London City Airport** | Royal Docks, East London |
+| **Hyde Park** | Central London |
+
+Each location was captured from tape with WinDV and saved as its own set of files, organised by landmark.
 
 ---
 
