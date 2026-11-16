@@ -77,7 +77,6 @@ I used **WinDV**, a free, lightweight capture tool that talks directly to the ca
 | **London City Airport** | Royal Docks, East London |
 | **Hyde Park** | Central London |
 
-Each location was captured from tape with WinDV and saved as its own set of files, organised by landmark.
 
 ---
 
