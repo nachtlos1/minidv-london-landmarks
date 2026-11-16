@@ -26,7 +26,8 @@ Getting video off a 20-year-old tape camcorder and onto a modern PC turned out t
 | Camcorder | Sony Handycam **DCR-TRV19E** (PAL/European model) |
 | Recording format | **MiniDV** tape: digital video (DV) recorded onto a cassette |
 | Camera's digital output | **i.LINK**, Sony's name for FireWire / IEEE 1394 (4-pin port) |
-| Cable | FireWire cable: 4-pin at the camera end, to match the PC's FireWire port |
+| FireWire port | PCIe FireWire (IEEE 1394) card installed in my main PC |
+| Cable | FireWire cable: 4-pin at the camera end, to match the card's port |
 | PC | Ryzen 7 7800X3D, RTX 5070, Windows 11 |
 | Capture software | WinDV |
 | Footage | Battersea Power Station, London City Airport, Hyde Park |
@@ -39,7 +40,7 @@ The DCR-TRV19E has a USB port, but on these camcorders USB is mainly for still p
 
 MiniDV records video **digitally** on the tape. Over FireWire the camera sends that exact digital stream to the PC, so the copy is identical to what's on the tape, with **no quality loss**. That's why FireWire is the right way to transfer MiniDV.
 
-**The catch:** modern PCs and motherboards no longer come with FireWire ports. A desktop needs a **PCIe FireWire (IEEE 1394a) card** added to provide the port.
+**The catch:** modern PCs and motherboards no longer come with FireWire ports, and my motherboard doesn't have one. I installed a **PCIe FireWire (IEEE 1394) card** in my main PC to add the port.
 
 ---
 
